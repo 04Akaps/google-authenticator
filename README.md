@@ -4,6 +4,8 @@
 
 기본적으로 MySQL을 통해 3티어 아키텍처를 구성하고, Cron을 활용하여 주기적으로 MySQL에 있는 데이터를 긁어와 Scrapping을 사용하는 API서버.
 
+</br>
+
 # 기능 정리
 
 다음과 같은 기능으로 정리가 된다.
@@ -12,8 +14,12 @@
 2. Cron을 활용하여, 백그라운드 서비스로직 구현
 3. MySQL을 활용하여, API 데이터 관리
 
+</br>
+
 # MySQL Table
 
 MySQL의 테이블은 다음과 같이 간단하게 구성이 되어 있다.
 
 - Scrapping을 위한 데이터만을 저장하기 위한 테이블
+
+<img src= "https://github.com/04Akaps/google-authenticator/assets/83758624/1bccc9ef-7ffd-4a13-a4fa-4314f2b0f166">
